@@ -22,7 +22,7 @@ def varianza(archivo):
   for linea in archivo:
     numero=float(linea) 
     suma = suma + numero
-    l =  + 1
+    l = l + 1
   prom = suma/l 
   m = 0
   suma = 0.0
